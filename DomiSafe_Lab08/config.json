@@ -1,0 +1,21 @@
+{
+  "MQTT_BROKER": "io.adafruit.com",
+  "MQTT_PORT": 1883,
+  "MQTT_KEEPALIVE": 60,
+
+  "security_check_interval": 2,
+  "security_send_interval": 60,
+  "env_interval": 30,
+  "flushing_interval": 10,
+
+  "devices": ["living_room_light", "bedroom_fan", "front_door", "garage_door"],
+
+  "camera_enabled": true,
+
+  "SMTP_HOST": "mail.smtp2go.com",
+  "SMTP_PORT": "587",
+  "SMTP_USER": "smtp2go_user",
+  "SMTP_PASS": "smtp2go_pass",
+  "ALERT_FROM": "isaac.nachate1725258@gmail.com",
+  "ALERT_TO": "isaac.nachate1725258@gmail.com"
+}
