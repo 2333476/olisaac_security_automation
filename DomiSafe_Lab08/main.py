@@ -15,6 +15,7 @@ import threading
 from pathlib import Path
 from datetime import datetime
 from dotenv import load_dotenv
+from neon_client import NeonClient
 
 # import my code
 from MQTT_communicator import MQTT_communicator
